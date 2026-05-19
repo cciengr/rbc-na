@@ -174,28 +174,32 @@
         "color": "#A78BFA",
         "rgb": "167,139,250",
         "title": "Worship Nights",
-        "desc": "Three nights of deep, spirit-filled worship led by the Reboot Worship Team and special guest artists."
+        "desc": "Three nights of deep, spirit-filled worship led by the Reboot Worship Team and special guest artists.",
+        "imgUrl": "https://cci-canada.s3.ca-central-1.amazonaws.com/rebootcamp-na/speakers/Brooke-Nicholls.jpg"
       },
       {
         "icon": "BookOpen",
         "color": "#E8C033",
         "rgb": "232,192,51",
         "title": "Powerful Teaching",
-        "desc": "Anointed messages on the theme \u201cGreat Grace\u201d from leading ministers across North America and beyond."
+        "desc": "Anointed messages on the theme \u201cGreat Grace\u201d from leading ministers across North America and beyond.",
+        "imgUrl": "https://cci-canada.s3.ca-central-1.amazonaws.com/rebootcamp-na/speakers/Brooke-Nicholls.jpg"
       },
       {
         "icon": "Zap",
         "color": "#E85D04",
         "rgb": "232,93,4",
         "title": "Prophetic Activation",
-        "desc": "Workshops, breakout sessions, and ministry gifts activation to stir up your calling and purpose."
+        "desc": "Workshops, breakout sessions, and ministry gifts activation to stir up your calling and purpose.",
+        "imgUrl": "https://cci-canada.s3.ca-central-1.amazonaws.com/rebootcamp-na/speakers/Brooke-Nicholls.jpg"
       },
       {
         "icon": "Users",
         "color": "#34D399",
         "rgb": "52,211,153",
         "title": "Community",
-        "desc": "Connect with believers from across Canada and the world \u2014 fellowship, networking, and lifelong friendships."
+        "desc": "Connect with believers from across Canada and the world \u2014 fellowship, networking, and lifelong friendships.",
+        "imgUrl": "https://cci-canada.s3.ca-central-1.amazonaws.com/rebootcamp-na/speakers/Brooke-Nicholls.jpg"
       }
     ],
     "included": [
