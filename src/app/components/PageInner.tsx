@@ -42,7 +42,7 @@ export function PageInner() {
         <VenueSection />
         {/* <PastEventsSection /> */}
         <FAQSection />
-        {/* <GivingSection /> */}
+        <GivingSection />
         <Footer />
       </div>
     </ThemeProvider>

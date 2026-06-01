@@ -551,9 +551,9 @@
   },
   "giving": {
     "sectionLabel": "Partner With Us",
-    "headingPlain": "Support the",
-    "headingAccent": "Ministry",
-    "description": "Reboot Camp is free to attend, but it takes significant resources to host. Your generous giving makes it possible for thousands to encounter God. Every gift, large or small, makes an eternal difference.",
+    "headingPlain": "Give Towards",
+    "headingAccent": "Reboot Camp",
+    "description": "Reboot Camp NA is free to attend, but it takes significant resources to host. Your generous giving makes it possible for thousands to encounter God. Every gift, large or small, makes an eternal difference.",
     "scripture": {
       "text": "\"Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.\"",
       "reference": "\u2014 2 Corinthians 9:7"
@@ -564,11 +564,12 @@
       {
         "icon": "CreditCard",
         "title": "Online Giving",
-        "description": "Give securely online via credit/debit card, PayPal, or e-transfer. Quick and easy.",
+        "description": "Give securely online via credit/debit card or Pre-authorized Debit. Quick and easy.",
         "cta": "Give Online",
-        "url": "#",
+        "url": "https://give.tithe.ly/?formId=3003d62b-3ed6-443d-94b2-d3f8ca9148b8",
         "highlight": true,
-        "methods": ["Visa / Mastercard", "PayPal", "Bank Transfer"]
+        "methods": ["Mastercard", "Visa", "AMEX", "Pre-authorized Debit"],
+        "show": true
       },
       {
         "icon": "Smartphone",
@@ -578,7 +579,8 @@
         "url": "#",
         "highlight": false,
         "methods": ["Interac e-Transfer"],
-        "details": "giving@rebootcamp.ca"
+        "details": "giving@rebootcamp.ca",
+        "show": false
       },
       {
         "icon": "Globe",
@@ -587,11 +589,12 @@
         "cta": "Give Internationally",
         "url": "#",
         "highlight": false,
-        "methods": ["Wise", "PayPal", "Western Union"]
+        "methods": ["Wise", "PayPal", "Western Union"],
+        "show": false
       }
     ],
     "categories": [
-      { "name": "General Fund",     "description": "Supports all aspects of the camp ministry",      "color": "#E8C033" },
+      { "name": "General Fund",     "description": "Supports all aspects of the camp meeting",      "color": "#E8C033" },
       { "name": "Scholarship Fund", "description": "Helps cover costs for attendees with financial need", "color": "#34D399" },
       { "name": "Media Ministry",   "description": "Recording, streaming and content creation",       "color": "#A78BFA" },
       { "name": "Missions Support", "description": "Supports missionary work and outreach",           "color": "#E85D04" }
