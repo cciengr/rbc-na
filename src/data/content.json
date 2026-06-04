@@ -14,7 +14,7 @@
     "datesDisplay": "SEPTEMBER 4 - 6, 2026",
     "countdownTarget": "2026-09-04T17:00:00",
     "admission": "Free (Registration Required)",
-    "registrationUrl": "https://ccicanada.churchcenter.com/registrations/events/3565021"
+    "registrationUrl": "https://ccicanada.churchcenter.com/registrations/events/3565021/reservations/new"
   },
   "navbar": {
     "links": [
@@ -248,7 +248,7 @@
     "headingPlain": "Child Care",
     "headingAccent": "Registration",
     "description": "Child care service is available at RBC'26 North America. Our dedicated CelebKids team will care for your children so you can fully engage in every session.",
-    "registrationUrl": "https://ccicanada.churchcenter.com/registrations/events/3629974",
+    "registrationUrl": "https://ccicanada.churchcenter.com/registrations/events/3629974/reservations/new",
     "imageUrl": "https://res.cloudinary.com/dyvg90tel/image/upload/q_auto/f_auto/v1779386650/rbc-na-childcare_apg8fg.jpg",
     "ctaLabel": "REGISTER YOUR CHILD NOW",
     "compulsoryTitle": "Registration is Compulsory",
