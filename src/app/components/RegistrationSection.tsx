@@ -1,7 +1,7 @@
 import { useTheme } from "@/app/contexts/ThemeContext";
 import { useSiteContent } from "@/app/hooks/useSiteContent";
 import { motion } from "framer-motion";
-import { MapPin, Calendar, Ticket, Music, BookOpen, Users, Zap, ArrowRight, Baby, CheckCircle } from "lucide-react";
+import { MapPin, Calendar, Ticket, Music, BookOpen, Users, Zap, ArrowRight, Baby, CheckCircle, BusFront } from "lucide-react";
 import { fadeUp, stagger } from "@/app/components/ui/animation";
 
 const ICON_MAP: Record<string, React.ElementType> = { Music, BookOpen, Users, Zap, Ticket, Calendar, MapPin };
@@ -245,6 +245,23 @@ export function RegistrationSection() {
               </button>
 
               <div className="w-full" style={{ borderTop: `1px solid rgba(${t.accentRgb},0.12)` }} />
+
+              {/* Transport nudge */}
+              <a
+                href={venue.transport.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 transition-opacity duration-200 hover:opacity-80"
+                style={{ textDecoration: "none" }}
+              >
+                <BusFront size={13} style={{ color: t.textVeryMuted, flexShrink: 0 }} />
+                <span style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.73rem", color: t.textVeryMuted }}>
+                  Need a ride?{" "}
+                  <span style={{ color: t.goldAccent, textDecoration: "underline", textDecorationStyle: "dotted", textUnderlineOffset: "3px" }}>
+                    Register for subsidized transportation
+                  </span>
+                </span>
+              </a>
 
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.75rem", color: t.textVeryMuted, lineHeight: 1.6 }}>
                 {registration.contactNote.split("\n").map((line, i) => (

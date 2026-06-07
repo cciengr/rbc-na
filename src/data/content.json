@@ -374,6 +374,107 @@
     "headingPlain": "Venue &",
     "headingAccent": "Directions",
     "name": "Venue",
+    "transport": {
+      "url": "https://ccicanada.churchcenter.com/registrations/events/3646593/reservations/new",
+      "label": "Subsidized Transportation Service",
+      "heading": "Need a Ride?",
+      "desc": "The cost of transportation has been subsidized to convey members to and from designated stops to the RBC NA venue. Register now to secure your seat on the shuttle.",
+      "ctaLabel": "REGISTER FOR TRANSPORTATION",
+      "faqsLabel": "Transportation FAQs",
+      "faqsContact": "canada@joincci.org",
+      "faqs": [
+        {
+          "q": "Is there transportation to the venue?",
+          "a": "Yes, there is subsidized transportation from various locations across the GTA and environs.",
+          "hasLink": true
+        },
+        {
+          "q": "Is transportation free?",
+          "a": "No. This is a subsidized transportation service, meaning participants will pay a portion of the cost while the remaining balance will be covered by the Church.",
+          "hasLink": false
+        },
+        {
+          "q": "When is the registration deadline?",
+          "a": "The registration deadline is August 8th.",
+          "hasLink": false
+        },
+        {
+          "q": "What are the locations where transportation would be available?",
+          "a": "Transportation is only available in the following locations:\n\nBrampton, Mississauga, Oshawa, Scarborough, Markham, Richmond Hill, North York, Etobicoke, Downtown, Midtown, Barrie, Vaughan, Hamilton, London, and Kitchener.\n\nEach location will have one or more designated pickup stops for attendees.",
+          "hasLink": false
+        },
+        {
+          "q": "What do I need to take part in the transportation scheme?",
+          "a": "You only need to:\n• Register for transportation, and\n• Join the WhatsApp group assigned to your location to stay abreast of key information about the service.",
+          "hasLink": false
+        },
+        {
+          "q": "Am I eligible for a refund?",
+          "a": "No refunds will be issued. However, the registration deadline of August 8th provides enough time for participants to make their decision before registering.",
+          "hasLink": false
+        },
+        {
+          "q": "How will I know my pickup location and time?",
+          "a": "Pickup locations and departure times will be shared in your location-specific WhatsApp group after registration.",
+          "hasLink": false
+        },
+        {
+          "q": "Can I choose any pickup location?",
+          "a": "You are expected to select the pickup location closest to and most convenient for you during registration.",
+          "hasLink": false
+        },
+        {
+          "q": "What happens if I miss the bus?",
+          "a": "Unfortunately, buses will leave at the scheduled departure time. Participants who miss the bus may need to arrange their own transportation.",
+          "hasLink": false
+        },
+        {
+          "q": "Can I transfer my spot to someone else?",
+          "a": "Please contact the transportation team before making any transfer arrangements. Unauthorized transfers are not permitted.",
+          "hasLink": false
+        },
+        {
+          "q": "Will there be return transportation?",
+          "a": "Yes, payment is for round trip only.",
+          "hasLink": false
+        },
+        {
+          "q": "Can I register after the deadline?",
+          "a": "Late registrations are not allowed.",
+          "hasLink": false
+        },
+        {
+          "q": "Can non-CCI members use the transportation service?",
+          "a": "Yes, the subsidized transportation service is open to the public.",
+          "hasLink": false
+        },
+        {
+          "q": "Will seats be assigned on the bus?",
+          "a": "No, seating will generally be on a first-come, first-served basis unless otherwise stated.",
+          "hasLink": false
+        },
+        {
+          "q": "Who do I contact for transportation questions or issues?",
+          "a": "Please send an email to canada@joincci.org for questions about registration. For questions after registration, contact your transportation coordinator or send a message in your assigned WhatsApp group for assistance.",
+          "hasLink": false
+        },
+        {
+          "q": "What if I joined the wrong WhatsApp group?",
+          "a": "Please leave the incorrect group and join the correct one based on your pickup location.",
+          "hasLink": false
+        },
+        {
+          "q": "Can I get picked up outside the designated stops?",
+          "a": "No. Pickups will only happen at the approved pickup locations communicated by the transportation team.",
+          "hasLink": false
+        },
+        {
+          "q": "What payment methods are accepted?",
+          "a": "Payment instructions and accepted methods are provided during the registration process.",
+          "hasLink": false
+        }
+      ]
+    },
     "address": "272 Attwell Dr, Toronto, ON M9W 6M3",
     "sundayVenue": {
       "notice": "Sunday Service — Different Venue",
