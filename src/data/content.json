@@ -17,15 +17,40 @@
     "registrationUrl": "https://ccicanada.churchcenter.com/registrations/events/3565021/reservations/new"
   },
   "navbar": {
-    "links": [
-      { "label": "About",         "href": "#about" },
-      { "label": "Schedule",      "href": "#schedule" },
-      { "label": "Speakers",      "href": "#speakers" },
-      { "label": "Accommodation", "href": "#accommodation" },
-      { "label": "Venue",         "href": "#venue" },
-      { "label": "Past Events",   "href": "#past-events" },
-      { "label": "FAQs",          "href": "#faqs" },
-      { "label": "Give",          "href": "#giving" }
+    "groups": [
+      {
+        "label": "The Event",
+        "items": [
+          { "label": "About",         "href": "#about",       "desc": "What is Reboot Camp?" },
+          { "label": "Schedule",      "href": "#schedule",    "desc": "Full 3-day programme" },
+          { "label": "Speakers",      "href": "#speakers",    "desc": "Meet the ministers" },
+          { "label": "Past Events",   "href": "#past-events", "desc": "Our legacy & highlights" }
+        ]
+      },
+      {
+        "label": "Attend",
+        "items": [
+          { "label": "Register Free",      "href": "#register",      "desc": "Secure your free spot" },
+          { "label": "Childcare",          "href": "#childcare",     "desc": "CelebKids registration" },
+          { "label": "Accommodation",      "href": "#accommodation", "desc": "Hotels near the venue" },
+          { "label": "Venue & Directions", "href": "#venue",         "desc": "How to get there" }
+        ]
+      },
+      {
+        "label": "Travel",
+        "items": [
+          { "label": "Flight Discounts",    "href": "#flight-discounts", "desc": "Save on flights to Toronto" },
+          { "label": "Event Transportation","href": "#transportation",   "desc": "Subsidized shuttles" }
+        ]
+      },
+      {
+        "label": "More",
+        "items": []
+      }
+    ],
+    "directLinks": [
+      { "label": "FAQs", "href": "#faqs" },
+      { "label": "Give", "href": "#giving" }
     ],
     "ctaLabel": "Register Now"
   },
