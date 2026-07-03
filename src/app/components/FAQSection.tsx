@@ -138,7 +138,7 @@ export function FAQSection() {
         {/* Transportation FAQs */}
         {activeTab === "transport" && (
           <>
-            <div className="flex items-center gap-3 mb-6 px-4 py-3 rounded-xl"
+            {/* <div className="flex items-center gap-3 mb-6 px-4 py-3 rounded-xl"
               style={{ background: t.isDark ? "rgba(232,192,51,0.07)" : "rgba(232,192,51,0.05)", border: "1px solid rgba(232,192,51,0.2)" }}>
               <BusFront size={18} style={{ color: t.goldAccent, flexShrink: 0 }} />
               <div>
@@ -158,7 +158,7 @@ export function FAQSection() {
               >
                 Register →
               </a>
-            </div>
+            </div> */}
 
             <AccordionList
               items={venue.transport.faqs}
