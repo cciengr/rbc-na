@@ -373,9 +373,9 @@
     "venueNote": "Sunday services take place at a different venue — 1000 Finch Ave W, North York, ON M3J 2V5",
     "requiredNote": "Registration is required to attend any of the services. You will only be checked in for the service you register for.",
     "services": [
-      { "label": "First Service",  "time": "9:00 - 10:30 AM EST" },
+      { "label": "First Service",  "time": "9:00 AM - 10:30 AM EST" },
       { "label": "Second Service", "time": "11:00 AM - 12:30 PM EST" },
-      { "label": "Third Service",  "time": "1:00 - 2:30 PM EST" }
+      { "label": "Third Service",  "time": "1:00 PM - 2:30 PM EST" }
     ]
   },
   "accommodation": {
