@@ -35,7 +35,7 @@ function AccordionList({ items, accentEmail, registerUrl, registerLabel }: {
                   <a href={`mailto:${accentEmail}`} style={{ color: t.goldAccent }} className="hover:underline">{accentEmail}</a>
                 )}
               </p>
-              {/* {faq.hasLink && registerUrl && (
+              {faq.hasLink && registerUrl && (
                 <a
                   href={registerUrl}
                   target="_blank"
@@ -46,7 +46,7 @@ function AccordionList({ items, accentEmail, registerUrl, registerLabel }: {
                   <BusFront size={13} />
                   {registerLabel ?? "REGISTER FOR TRANSPORTATION"}
                 </a>
-              )} */}
+              )}
             </div>
           )}
         </div>
@@ -138,7 +138,7 @@ export function FAQSection() {
         {/* Transportation FAQs */}
         {activeTab === "transport" && (
           <>
-            {/* <div className="flex items-center gap-3 mb-6 px-4 py-3 rounded-xl"
+            <div className="flex items-center gap-3 mb-6 px-4 py-3 rounded-xl"
               style={{ background: t.isDark ? "rgba(232,192,51,0.07)" : "rgba(232,192,51,0.05)", border: "1px solid rgba(232,192,51,0.2)" }}>
               <BusFront size={18} style={{ color: t.goldAccent, flexShrink: 0 }} />
               <div>
@@ -156,15 +156,15 @@ export function FAQSection() {
                 className="ml-auto text-xs hover:underline"
                 style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.06em", color: t.goldAccent, textDecoration: "none", whiteSpace: "nowrap" }}
               >
-                Register →
+                Register Now →
               </a>
-            </div> */}
+            </div>
 
             <AccordionList
               items={venue.transport.faqs}
               accentEmail={venue.transport.faqsContact}
               registerUrl={venue.transport.url}
-              registerLabel="REGISTER FOR TRANSPORTATION"
+              registerLabel={venue.transport.ctaLabel}
             />
 
             <div className="mt-10 p-6 rounded-2xl text-center" style={{ background: t.faqContactBg, border: `1px solid ${t.faqContactBorder}` }}>

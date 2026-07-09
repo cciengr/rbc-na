@@ -4,7 +4,7 @@ import { useSiteContent } from "@/app/hooks/useSiteContent";
 
 export function TransportationSection() {
   const { t } = useTheme();
-  const { venue, event } = useSiteContent();
+  const { venue } = useSiteContent();
   const tr = venue.transport;
 
   return (

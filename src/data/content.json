@@ -363,7 +363,7 @@
       }
     ]
   },
-    "sundayService": {
+  "sundayService": {
     "sectionLabel": "September 6, 2026",
     "heading": "Reboot Camp",
     "headingAccent": "Sunday Service",
@@ -459,12 +459,12 @@
     "headingAccent": "Directions",
     "name": "Venue",
     "transport": {
-      "url": "https://ccicanada.churchcenter.com/registrations/events/3646593/reservations/new",
+      "url": "https://ccicanada.churchcenter.com/people/forms/1261898",
       "label": "Subsidized Transportation Service",
       "heading": "Need a Ride?",
       "desc": "The cost of transportation has been subsidized to convey members to and from designated stops to the RBC NA venue. Register now to secure your seat on the shuttle.",
       "ctaLabel": "REGISTER FOR TRANSPORTATION",
-      "comingSoon": true,
+      "comingSoon": false,
       "comingSoonText": "Registration Opening Soon",
       "sectionLabel": "Event Transportation",
       "heroHeading": "Need A Ride?",
@@ -481,7 +481,7 @@
       ],
       "keyFacts": [
         { "label": "Registration Deadline", "value": "August 8, 2026" },
-        { "label": "Trip Type",             "value": "Round Trip Included" },
+        { "label": "Trip Type",             "value": "Round Trip Only" },
         { "label": "Open To",               "value": "Everyone (Public)" },
         { "label": "Cost",                  "value": "Subsidized — Partial Fee" }
       ],
